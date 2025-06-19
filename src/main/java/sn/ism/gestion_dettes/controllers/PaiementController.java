@@ -173,7 +173,7 @@ public class PaiementController {
     }
     
     /**
-     *  Obtenir les paiements d'une dette (sans pagination)
+     * Obtenir les paiements d'une dette (sans pagination)
      */
     @GetMapping("/dette/{detteId}/simple")
     public ResponseEntity<?> obtenirPaiementsDetteSimple(@PathVariable Long detteId) {
